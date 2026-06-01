@@ -54,6 +54,6 @@ def preprocess_data(input_path, output_path):
 
 if __name__ == "__main__":
     preprocess_data(
-        input_path="src/Eksperimen_SML_Putri_Aradea/healthcare-dataset-stroke-data.csv",
-        output_path="src/Eksperimen_SML_Putri_Aradea/preprocessing/stroke_preprocessed.csv"
+        input_path="healthcare-dataset-stroke-data.csv",
+        output_path="preprocessing/stroke_preprocessed.csv"
     )
